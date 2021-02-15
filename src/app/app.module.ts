@@ -8,6 +8,7 @@ import { HomeComponent } from './common/home/home.component';
 import { HeroesComponent } from './common/heroes/heroes.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HeroService } from './service/hero.service';
+import { FilterpipePipe } from './pipe/filterpipe.pipe';
 
 const appRoutes: Routes = [
   {
@@ -29,7 +30,8 @@ const appRoutes: Routes = [
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    HeroesComponent
+    HeroesComponent,
+    FilterpipePipe
   ],
   imports: [
     BrowserModule,
