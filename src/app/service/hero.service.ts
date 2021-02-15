@@ -21,7 +21,7 @@ export class HeroService {
   {
     id: 3,
     name: "DarkFater",
-    superPower: "kardvívás",
+    superPower: "sword play",
     address: "Space",
   },
   {
@@ -37,8 +37,8 @@ export class HeroService {
     address: "Mars"
   }]
 
-
   constructor() { }
+
 }
 
 

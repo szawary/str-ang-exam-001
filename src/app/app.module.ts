@@ -7,6 +7,7 @@ import { NavigationComponent } from './common/navigation/navigation.component';
 import { HomeComponent } from './common/home/home.component';
 import { HeroesComponent } from './common/heroes/heroes.component';
 import { Routes, RouterModule } from '@angular/router';
+import { HeroService } from './service/hero.service';
 
 const appRoutes: Routes = [
   {
@@ -35,7 +36,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [],
+  providers: [HeroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
